@@ -5,10 +5,7 @@ services:
 - type: web
 name: my-app
 runtime: docker
-
 healthCheckPath: /
 envVars:
 - key: DATABASE_URL
-fromDatabase:
-
 property: connectionString
